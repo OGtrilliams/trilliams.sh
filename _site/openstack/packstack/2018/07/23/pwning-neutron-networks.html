@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.2.0
+    Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+  
+    <title>Pwning Neutron Networks</title>
+    <meta name="description" content="Those who know me, know that I am 100% an OpenStack Fangirl &amp;amp; will never stop loving the project, but, like a lot of people in the community – I have a l...">
+    <link rel="canonical" href="http://localhost:4000/openstack/packstack/2018/07/23/pwning-neutron-networks.html">
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/skins/default.css">
+  <link rel="alternate" type="application/atom+xml" title="hello@trilliams.sh % ~│" href="/feed.xml">
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+</head>
+
+
+  <body class="layout--post  pwning-neutron-networks">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+  <div class="navigation-wrapper">
+    <a href="#menu-toggle" id="menu-toggle">Menu</a>
+    <nav id="primary-nav" class="site-nav animated drop">
+      <ul><li><a href="/">Home</a></li><li><a href="/posts/">Posts</a></li><li><a href="/projects/">Projects</a></li><li><a href="/tags/">Tags</a></li><li><a href="/about/">About Me</a></li></ul>
+    </nav>
+  </div><!-- /.navigation-wrapper -->
+
+
+    <header class="masthead">
+  <div class="wrap">
+    
+      <a href="/" class="site-logo" rel="home" title="hello@trilliams.sh % ~│">
+        <img src="/assets/images/withgoggy.png" class="site-logo-img animated fadeInDown" alt="hello@trilliams.sh % ~│">
+      </a>
+    
+    
+    
+      
+        <div class="site-title animated fadeIn"><a href="/">hello@trilliams.sh % ~│</a></div>
+      
+      <p class="site-description animated fadeIn" itemprop="description">"Random musings of a mostly retired pretengineer -&- professional geek. Oh, -&-  I also sew sometimes."</p>
+    
+  </div>
+</header><!-- /.masthead -->
+
+
+    <main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    
+
+    <div class="page-wrapper">
+      <header class="page-header">
+        
+        
+          <h1 id="page-title" class="page-title p-name">Pwning Neutron Networks
+</h1>
+        
+      </header>
+
+      <div class="page-sidebar">
+        <div class="page-author h-card p-author"><div class="author-info">
+
+<span class="read-time">3 min read</span>
+
+    <time class="page-date dt-published" datetime="2018-07-23T14:55:50-04:00"><a class="u-url" href="">July 23, 2018</a>
+</time>
+
+  </div>
+</div>
+
+        
+  <h3 class="page-taxonomies-title">Categories</h3>
+  <ul class="page-taxonomies"><li class="page-taxonomy">openstack</li><li class="page-taxonomy">packstack</li>
+  </ul>
+
+
+        
+
+      </div>
+
+      <div class="page-content">
+        <div class="e-content">
+          <p>Those who know me, know that I am 100% an OpenStack Fangirl &amp; will never stop
+loving the project, but, like a lot of people in the community – I have a
+love/hate relationship with Neutron that can sometimes be heavy on
+the hate. It’s an awesome project created &amp; maintained by some of the most brilliant people I’ve ever had the pleasure of speaking with but OMG Y ARE U SO DIFFICULT.</p>
+
+<p><strong>ahem</strong></p>
+
+<p>Anyhoo, while preparing architecture for my next course, I spent weeks digging
+through <a href="https://docs.openstack.org/networking-ovn/queens/admin/refarch/provider-networks.html">docs</a>, <a href="https://www.rdoproject.org/networking/neutron-with-existing-external-network/">blogs</a>, video demos &amp; anything else I could find trying to figure
+out a simple, straight-forward way to configure Neutron networks with <a href="https://www.rdoproject.org/install/packstack/">PackStack</a> without the need for fiddling with
+network namespaces. Well, after trying out virtually every method I finally
+got it working how I wanted, &amp; this is how.</p>
+
+<h3 id="environment-setup">Environment Setup</h3>
+
+<p>For my environment, I’m running <a href="https://www.centos.org/download/">CentOS 7.5</a> on an <a href="https://amzn.to/2LFNUIR">Intel i5
+NUC</a> with a <a href="https://amzn.to/2LHjCWa">500GB Samsung SSD</a> &amp; <a href="https://amzn.to/2LJz8Bc">16GBx2 RAM</a>. My network name is <code class="language-plaintext highlighter-rouge">eno1</code>, &amp; my host IP is <code class="language-plaintext highlighter-rouge">192.168.1.166</code>. Because I don’t want to have to drop into a network namespace before accessing my instances I will need to configure my Neutron <code class="language-plaintext highlighter-rouge">public</code> network on this same subnet.</p>
+
+<p>So, because I’m using <a href="https://www.rdoproject.org/install/packstack/">PackStack</a> as my deployment tool, I will
+need to adjust Neutron settings in <code class="language-plaintext highlighter-rouge">answers.txt</code> with the following settings:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CONFIG_NEUTRON_ML2_TYPE_DRIVERS=vxlan,flat
+CONFIG_NEUTRON_OVS_BRIDGE_MAPPINGS=extnet:br-ex
+CONFIG_NEUTRON_OVS_BRIDGE_IFACES=br-ex:eno1
+...
+CONFIG_PROVISION_DEMO_FLOATRANGE=192.168.1.0/24
+</code></pre></div></div>
+
+<p>Let’s take a closer look at what’s going on:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">CONFIG_NEUTRON_ML2_TYPE_DRIVERS</code> will ensure that, if needed, I can
+configure a “flat” network without tunnels, vlans, etc.</li>
+  <li><code class="language-plaintext highlighter-rouge">CONFIG_NEUTRON_OVS_BRIDGE_MAPPINGS</code> will create a physical network named
+<code class="language-plaintext highlighter-rouge">extnet</code> that will be associated with an OVS bridge named <code class="language-plaintext highlighter-rouge">br-ex</code> – all
+created by the <code class="language-plaintext highlighter-rouge">packstack</code> installer.</li>
+  <li><code class="language-plaintext highlighter-rouge">CONFIG_NEUTRON_OVS_BRIDGE_IFACES</code> will connect the OVS bridge created in
+the previous step - <code class="language-plaintext highlighter-rouge">br-ex</code> - with the host’s public network, which in my
+case is <code class="language-plaintext highlighter-rouge">eno1</code></li>
+  <li>Now, because I left <code class="language-plaintext highlighter-rouge">CONFIG_PROVISION_DEMO</code> set to the default <code class="language-plaintext highlighter-rouge">=y</code>, I will
+have to set <code class="language-plaintext highlighter-rouge">CONFIG_PROVISION_DEMO_FLOATRANGE</code> to match my home network
+range, which is <code class="language-plaintext highlighter-rouge">192.168.1.0/24</code>. Adjust this to fit your own network range,
+or if you’re feeling fancy you can edit settings in your router to match the
+default <code class="language-plaintext highlighter-rouge">172.24.4.0/24</code> range.</li>
+</ul>
+
+<p>After making a few other customizations, such as changing the default
+passwords for <code class="language-plaintext highlighter-rouge">admin</code> &amp; <code class="language-plaintext highlighter-rouge">demo</code>, I’m ready to install!</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ packstack --answer-file=answers.txt
+</code></pre></div></div>
+
+<p>Once installation completes, I should be able to build a server connected to
+the automatically created <code class="language-plaintext highlighter-rouge">Private</code> network, then after attaching a <a href="https://docs.openstack.org/python-openstackclient/pike/cli/command-objects/floating-ip.html">floating
+IP</a> from the <code class="language-plaintext highlighter-rouge">Public</code> network I should be able to access the server
+without namespaces!</p>
+
+<p>Let’s see if it works:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ openstack server create myserver --image cirros --flavor m1.tiny \
+--key-name mykey --nic net-id=d21c5fde-0f9a-46af-9287-b554acca3538 --wait
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ openstack floating ip create public
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ openstack server floating ip associate myserver 192.168.1.10
+</code></pre></div></div>
+
+<p>Alright, moment of truth. Let’s try to login to <code class="language-plaintext highlighter-rouge">myserver</code>.</p>
+
+<pre><code class="language-`"># ssh cirros@192.168.1.10
+$ hostname
+myserver
+$ exit
+Connection to 192.168.1.10 closed.
+</code></pre>
+
+<p>SUCCESS! So after an embarrassingly long time spent troubleshooting, testing,
+&amp; re-OS-ing I’ve finally solved the problem of simple Provider networks.</p>
+
+
+        </div>
+
+        
+
+        
+
+        <nav class="page-pagination" role="navigation">
+  
+    <a class="page-previous" href="/jekyll/update/redhat/openstack/rhca/2018/07/18/road-to-rhca.html">
+      <h4 class="page-pagination-label">Previous</h4>
+      <span class="page-pagination-title">
+        <i class="fas fa-arrow-left"></i> Trilligan’s Island
+
+      </span>
+    </a>
+  
+
+  
+    <a class="page-next" href="/trilligansisland/socialanxiety/2018/09/14/trilligans-island.html">
+      <h4 class="page-pagination-label">Next</h4>
+      <span class="page-pagination-title">
+        Return to Trilligan’s Island
+ <i class="fas fa-arrow-right"></i>
+      </span>
+    </a>
+  
+</nav>
+
+      </div>
+    </div>
+  </article>
+</main>
+
+
+    <footer id="footer" class="site-footer">
+  <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+<div class="social-icons"><a class="social-icon" href="https://linkedin.com/in/trilliams"><i class="fab fa-linkedin fa-2x" title="LinkedIn"></i></a><a class="social-icon" href="https://github.com/OGtrilliams"><i class="fab fa-github-square fa-2x" title="GitHub"></i></a><a class="social-icon" href="https://youtube.com/OGtrilliams"><i class="fab fa-youtube-square fa-2x" title="Youtube"></i></a><a class="social-icon" href="https://etsy.com/OGtrilliams"><i class="fab fa-etsy fa-2x" title="Etsy"></i></a><a class="social-icon" href="https://bsky.app/profile/trilliams.bsky.social"><i class="fab fa-bluesky-square fa-2x" title="BlueSky"></i></a></div><div class="copyright">
+    
+      <p>Copyright 2024 - ∞ ♡<em>trilliams</em>♡</p>
+
+    
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+
+  </body>
+
+</html>

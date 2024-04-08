@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.box {
+  padding: 0 50px 0 10px;
+  border: 2px solid #656464;
+  border-radius: 10px;
+}
+
+.box h2 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
+
+.box h2::after {
+  content: "";
+  width: 5px;
+  height: 20px;
+  background: #ec7fff;
+  display: inline-block;
+  animation: cursor-blink 1.5s steps(2) infinite;
+}
