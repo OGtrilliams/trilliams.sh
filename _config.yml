@@ -68,10 +68,6 @@ paginate: 8  # amount of posts to show per page
 paginate_path: /page:num/
 
 # enable search
-include:
-  - ".well-known"
-  - _pages
-
 
 search_full_content: true
 # Front Matter Defaults
