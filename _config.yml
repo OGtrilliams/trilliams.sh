@@ -69,7 +69,8 @@ paginate_path: /page:num/
 
 # enable search
 include:
-  - .well-known/acme-challenge
+  - ".well-known"
+
 search_full_content: true
 # Front Matter Defaults
 
