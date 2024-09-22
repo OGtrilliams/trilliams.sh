@@ -64,4 +64,3 @@ permalink: /about/
 [li]: https://linkedin.com/in/trilliams
 [cr]: https://www.credly.com/users/treva-williams.09141519/badges
 [gh]: https://github.com/OGtrilliams
-
