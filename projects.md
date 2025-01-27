@@ -1,5 +1,5 @@
 ---
-layout: image
+layout: images
 permalink: portfolio.html
 ---
 
