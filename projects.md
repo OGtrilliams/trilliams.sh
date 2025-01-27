@@ -1,6 +1,6 @@
 ---
 layout: images
-permalink: portfolio.html
+permalink: projects.html
 ---
 
-lorem ipsum
+Coming soon
