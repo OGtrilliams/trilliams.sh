@@ -17,8 +17,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-theme: "jekyll-theme-so-simple"
-skin: "/assets/css/skins/default.css"
+#theme: "jekyll-theme-so-simple"
+#skin: "/assets/css/skins/default.css"
 locale: en-US
 date_format: "%B %-d, %Y"
 title: "hello@trilliams.sh % ~│"
@@ -40,27 +40,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
-
-
-read_time: true
-words_per_minute: 150
-# footer update
-footer_links:
-  - title: LinkedIn
-    url: https://linkedin.com/in/trilliams
-    icon: fab fa-linkedin
-  - title: GitHub
-    url: https://github.com/OGtrilliams
-    icon: fab fa-github-square
-  - title: Youtube
-    url: https://youtube.com/OGtrilliams
-    icon: fab fa-youtube-square
-  - title: Etsy
-    url: https://etsy.com/OGtrilliams
-    icon: fab fa-etsy
-  - title: BlueSky
-    url: https://bsky.app/profile/trilliams.bsky.social
-    icon: fab fa-bluesky-square
 
 
 # Enable pagination

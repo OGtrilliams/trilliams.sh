@@ -1,0 +1,24 @@
+.post-list {
+    display: block;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.postlist-user {
+    display: inline-block;
+    padding: 0 10px;
+}
+.postlist-perms,.nav-perms {
+    display: inline-block;
+    padding-right: 5px; 
+}
+.postlist-date, .nav-date {
+    display: inline-block;
+    padding-right: 15px;
+}
+.nav-dir {
+    font-weight: bold;
+}
+.nav-user {
+    display: inline-block;
+    padding-right: 10px;
+} 

@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-04-08T07:05:38-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">hello@trilliams.sh % ~│</title><subtitle>&quot;Random musings of a mostly retired pretengineer -&amp;- professional geek. Oh, -&amp;-  I also sew sometimes.&quot;</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2024/04/04/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-04-04T10:05:54-04:00</published><updated>2024-04-04T10:05:54-04:00</updated><id>http://localhost:4000/jekyll/update/2024/04/04/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/04/04/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-27T10:41:38-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">hello@trilliams.sh % ~│</title><subtitle>&quot;Random musings of a mostly retired pretengineer -&amp;- professional geek. Oh, -&amp;-  I also sew sometimes.&quot;</subtitle><entry><title type="html">Welcome Back to Jekyll</title><link href="http://localhost:4000/jekyll/update/2024/09/27/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome Back to Jekyll" /><published>2024-09-27T12:51:15-04:00</published><updated>2024-09-27T12:51:15-04:00</updated><id>http://localhost:4000/jekyll/update/2024/09/27/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/09/27/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2024/04/04/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-04-04T10:05:54-04:00</published><updated>2024-04-04T10:05:54-04:00</updated><id>http://localhost:4000/jekyll/update/2024/04/04/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/04/04/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>Jekyll requires blog post files to be named according to the following format:</p>
 
@@ -16,228 +32,460 @@
 
 <p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
 
-<p>adding line to end to find this page</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">We’re on Patreon!</title><link href="http://localhost:4000/pink/penguins/2020/01/16/pink-penguins-patreon.html" rel="alternate" type="text/html" title="We’re on Patreon!" /><published>2020-01-16T12:56:55-05:00</published><updated>2020-01-16T12:56:55-05:00</updated><id>http://localhost:4000/pink/penguins/2020/01/16/pink-penguins-patreon</id><content type="html" xml:base="http://localhost:4000/pink/penguins/2020/01/16/pink-penguins-patreon.html"><![CDATA[<h1 id="pink-penguins-is-alive--on-patreon">Pink Penguins is alive &amp; on Patreon!</h1>
+<p>adding line to end to find this page</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Bananas - the yellow fruit</title><link href="http://localhost:4000/2022/02/22/bananas.html" rel="alternate" type="text/html" title="Bananas - the yellow fruit" /><published>2022-02-22T01:25:15-05:00</published><updated>2022-02-22T01:25:15-05:00</updated><id>http://localhost:4000/2022/02/22/bananas</id><content type="html" xml:base="http://localhost:4000/2022/02/22/bananas.html"><![CDATA[<h1 id="bananas">Bananas</h1>
 
-<p>Hey folks, hishashiburi desu, ne?</p>
+<p><img src="https://images.unsplash.com/photo-1717240740585-63163fc7fdf3?fm=jpg&amp;q=60&amp;w=3000&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJhbmFuYXN8ZW58MHx8MHx8fDA%3D" alt="nanners" />A banana is an edible fruit – botanically a berry – produced by severalkinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called “plantains”, distinguishing them from dessert bananas. The fruit is variable in size, color, and firmness, but is usually elongated and curved, with soft flesh rich in starch covered with a rind, which may be green, yellow,
+red, purple, or brown when ripe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
 
-<p><img src="/images/fb-banner.png" alt="" /></p>
+<h2 id="video">Video</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kjVwBbS4so0?si=a7WGE_cV29K8U66i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 
-<p>I’m just dropping by to let you know that my project <a href="https://pinkpenguins.io">Pink Penguins</a> is now officially active on <a href="https://www.patreon.com/pinkpenguins">Patreon</a>!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
 
-<p>Never fear, Pink Penguins content will always be 100% free because this project is 100% self-funded. Any donations will help us to remain independent while expanding our outreach while convering travel, hosting, expansion, &amp; production fees, so please give if you can.</p>]]></content><author><name></name></author><category term="pink" /><category term="penguins" /><summary type="html"><![CDATA[Pink Penguins is alive &amp; on Patreon!]]></summary></entry><entry><title type="html">Be Encouraged</title><link href="http://localhost:4000/trilligan's/island/2020/01/16/be-encouraged.html" rel="alternate" type="text/html" title="Be Encouraged" /><published>2020-01-16T05:26:55-05:00</published><updated>2020-01-16T05:26:55-05:00</updated><id>http://localhost:4000/trilligan&apos;s/island/2020/01/16/be-encouraged</id><content type="html" xml:base="http://localhost:4000/trilligan&apos;s/island/2020/01/16/be-encouraged.html"><![CDATA[<h1 id="be-encouraged-or-how-to-respond-when-your-inner-voice-says-you-failed">Be Encouraged or, How to Respond When Your Inner Voice Says You Failed</h1>
+<h2 id="heading-2">heading #2</h2>
+<p>A banana is an edible fruit – botanically a berry – produced by several
+kinds of large herbaceous flowering plants in the genus Musa.</p>
 
-<p>The first blog of the year is gonna be an emotional rollercoaster, so if that’s not your thing I’ll sum it up quickly for you:</p>
+<p>In some countries, bananas used for cooking may be called “plantains”,
+distinguishing them from dessert bananas. The fruit is variable in size,
+color, and firmness, but is usually elongated and curved, with soft
+flesh rich in starch covered with a rind, which may be green, yellow,
+red, purple, or brown when ripe.</p>
 
-<p>When you hit a point where you feel like you haven’t accomplished anything &amp;/or feel like giving up, remember everything you went through to get to where you are, then compare the hardships of then to now. Chances are, the climb up to where you currently sit was much, much harder than whatever you’re facing now, which should automatically establish your ability to crush whatever you’re facing now. So wipe your face, dust yourself off, &amp; kick the butt of whatever’s in front of you, because the only other option is giving up &amp; that’s for suckers. Never give up.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
 
-<p>You’re probably wondering what inspired this somewhat random outburst. Well, I’m coming off of a cleansing &amp; energizing 6-month sabbatical with an entirely new perspective, thanks to having a long period of true quiet time where I could really reflect on just what the h*ck was going on in my head.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
 
-<h2 id="ysee-im-a-high-school-drop-out">Y’see, I’m a high school drop-out.</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
 
-<p><img src="https://i.imgur.com/Zxvoq6t.gif" alt="" /></p>
+<h3 id="heading-3">Heading 3</h3>
 
-<p>This was something I was deeply ashamed of, as I’d been hearing that any future for me was limited to baby daddies &amp; fast food work pretty much since puberty, &amp; dropping out felt like taking a huge leap in <em>that</em> direction. For reasons I’m not quite ready to publicly discuss yet, I dropped out of 9th grade because I genuinely did not expect or even intend to live past 21, which, looking back was a terrifying place to be for a 14yr old with wild hormone-clouded judgement by default. TL;dr I kind of miserably floated by until a financial windfall allowed me to start my first business (&amp; buy my first sewing machine), which introduced me to people <em>with plans</em> who inspired me to try again. So I did. I applied to some colleges with a comically bad fashion portfolio &amp; to my absolute shock was accepted to two programs. Five years &amp; almost $200,000 including scholarships later, &amp; I was no longer a hopeless high school drop out. I was a hopeless &amp; jobless bachelaureate.</p>
+<p><img src="https://images.unsplash.com/photo-1717240740585-63163fc7fdf3?fm=jpg&amp;q=60&amp;w=3000&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJhbmFuYXN8ZW58MHx8MHx8fDA%3D" alt="nanners" />Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.
+A banana is an edible fruit – botanically a berry – produced by several
+kinds of large herbaceous flowering plants in the genus Musa.</p>
 
-<h2 id="hooray">Hooray?</h2>
+<h4 id="heading-4">heading 4</h4>
+<p>In some countries, bananas used for cooking may be called “plantains”,
+distinguishing them from dessert bananas. The fruit is variable in size,
+color, and firmness, but is usually elongated and curved, with soft
+flesh rich in starch covered with a rind, which may be green, yellow,
+red, purple, or brown when ripe.</p>
 
-<p><img src="https://i.imgur.com/7FUoqT2.gif" alt="" /></p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
 
-<p>I think Post-graduation was the worst event of my entire life. While my portfolio was a tad better than the cartoonish &amp; weirdly proportioned illustrations I started with, a combination of shaky work history &amp; graduating smack-dab in the middle of The Great Recession left virtually no employment opportunities better than… target. Sure, Target eventually &amp; confoundingly grew into what became a life-changing career at Rackspace, but the couple of years transitioning from severely depressed, unemployed designer to slightly less depressed, but gainfully employed sysadmin were <em>rough</em>, which, as you can imagine can provoke some regrets.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
 
-<p>As I became more established &amp; even appreciated in tech, I spent a lot of time - too much time - beating myself up over what I chose for undergrad. “You should’ve gone for computer science or engineering! They were in the same damn building!” my inner me would scream. Thinking back on how I scraped by both academically &amp; financially by the skin of my teeth - depending heavily on charity to fill the gaps that selling literally anything of value that I had didn’t fully cover, I felt <em>so</em> stupid for squandering a huge opportunity to redeem myself, to prove that quitting high school didn’t make me a statistic that so many told me I would be on a freaking <em>hobby</em>.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
 
-<p><img src="https://i.imgur.com/HctjJLb.jpg" alt="" /></p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
 
-<p>Worst of all, I wasn’t even that good at it outside of one or two severely obscure niche skills. My confidence was &amp; still is negatively affected by the fact that I am in I.T. without a degree in I.T., &amp; I was <em>right there</em>.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
 
-<h2 id="but-you-know-what-i-got-the-damn-degree">But you know what? I got the damn degree.</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.
+A banana is an edible fruit – botanically a berry – produced by several
+kinds of large herbaceous flowering plants in the genus Musa.</p>
 
-<p><img src="https://i.imgur.com/7MCuYse.gif" alt="" /></p>
+<p>In some countries, bananas used for cooking may be called “plantains”,
+distinguishing them from dessert bananas. The fruit is variable in size,
+color, and firmness, but is usually elongated and curved, with soft
+flesh rich in starch covered with a rind, which may be green, yellow,
+red, purple, or brown when ripe.</p>
 
-<p>I got the damn degree despite barely having a 9th grade education. Despite the setbacks. Despite the financial hardship. Despite the abuse. Despite the undiagnosed, untreated mental illness poisoning me from the inside. If we’re keeping it a buck, despite the talent.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
 
-<p>Despite it all, I did it &amp; that counts for a lot. Maybe I would’ve even been able to have a successful career in fashion if I hadn’t graduated during the Great Recession, but then again I can’t imagine myself now fussing over a sewing machine vs. fussing over a computer. So I guess it worked out for the best in the end.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
 
-<p>I’m sharing this not to humble-brag, but to bring to your memory all of the times when it felt like you failed but you actually won. Spoiler alert: If you’re still standing, you won.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
 
-<p>After finally starting to see light again after being surrounded by darkness for a very, very long time, I hope that this probably whiny, definitely long-winded self-reflection will help someone who feels like there’s no point. It sounds cliche, but you’re stronger than you know, &amp; if your inner voice says different it’s wrong.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
 
-<p>If you liked this blog &amp; would like to see more content, consider donating <a href="https://www.paypal.com/trilliams">here</a>.</p>]]></content><author><name></name></author><category term="trilligan&apos;s" /><category term="island" /><summary type="html"><![CDATA[Be Encouraged or, How to Respond When Your Inner Voice Says You Failed]]></summary></entry><entry><title type="html">ShiftStack - OKD 3.11 on OpenStack Queens</title><link href="http://localhost:4000/shiftstack,/openshift,/openstack/2019/08/29/shiftstack-deployment.html" rel="alternate" type="text/html" title="ShiftStack - OKD 3.11 on OpenStack Queens" /><published>2019-08-29T06:26:55-04:00</published><updated>2019-08-29T06:26:55-04:00</updated><id>http://localhost:4000/shiftstack,/openshift,/openstack/2019/08/29/shiftstack-deployment</id><content type="html" xml:base="http://localhost:4000/shiftstack,/openshift,/openstack/2019/08/29/shiftstack-deployment.html"><![CDATA[<h1 id="okd-311-on-openstack-queens">okd 3.11 on OpenStack Queens</h1>
-<p>okd 3.11 is the first openshift release to coordinate with openstack release</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
 
-<h2 id="glossary">glossary</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.
+A banana is an edible fruit – botanically a berry – produced by several
+kinds of large herbaceous flowering plants in the genus Musa.</p>
+
+<p>In some countries, bananas used for cooking may be called “plantains”,
+distinguishing them from dessert bananas. The fruit is variable in size,
+color, and firmness, but is usually elongated and curved, with soft
+flesh rich in starch covered with a rind, which may be green, yellow,
+red, purple, or brown when ripe.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.
+A banana is an edible fruit – botanically a berry – produced by several
+kinds of large herbaceous flowering plants in the genus Musa.</p>
+
+<p>In some countries, bananas used for cooking may be called “plantains”,
+distinguishing them from dessert bananas. The fruit is variable in size,
+color, and firmness, but is usually elongated and curved, with soft
+flesh rich in starch covered with a rind, which may be green, yellow,
+red, purple, or brown when ripe.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.
+A banana is an edible fruit – botanically a berry – produced by several
+kinds of large herbaceous flowering plants in the genus Musa.</p>
+
+<p>In some countries, bananas used for cooking may be called “plantains”,
+distinguishing them from dessert bananas. The fruit is variable in size,
+color, and firmness, but is usually elongated and curved, with soft
+flesh rich in starch covered with a rind, which may be green, yellow,
+red, purple, or brown when ripe.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.
+A banana is an edible fruit – botanically a berry – produced by several
+kinds of large herbaceous flowering plants in the genus Musa.</p>
+
+<p>In some countries, bananas used for cooking may be called “plantains”,
+distinguishing them from dessert bananas. The fruit is variable in size,
+color, and firmness, but is usually elongated and curved, with soft
+flesh rich in starch covered with a rind, which may be green, yellow,
+red, purple, or brown when ripe.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, magnam provident suscipit non consectetur consequuntur totam enim incidunt fugit eligendi expedita harum est odio blanditiis ea quos rerum? Non.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Bananas]]></summary></entry><entry><title type="html">apples</title><link href="http://localhost:4000/2020/07/07/apples.html" rel="alternate" type="text/html" title="apples" /><published>2020-07-07T07:51:15-04:00</published><updated>2020-07-07T07:51:15-04:00</updated><id>http://localhost:4000/2020/07/07/apples</id><content type="html" xml:base="http://localhost:4000/2020/07/07/apples.html"><![CDATA[<p>An apple is a sweet, edible fruit produced by an apple tree.</p>
+
+<p>Apple trees are cultivated worldwide, and are the most widely grown
+species in the genus Malus. The tree originated in Central Asia, where
+its wild ancestor, Malus sieversii, is still found today. Apples have
+been grown for thousands of years in Asia and Europe, and were brought
+to North America by European colonists.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[An apple is a sweet, edible fruit produced by an apple tree.]]></summary></entry><entry><title type="html">kiwi - the furry fruit</title><link href="http://localhost:4000/2013/10/01/kiwifruit.html" rel="alternate" type="text/html" title="kiwi - the furry fruit" /><published>2013-10-01T12:14:15-04:00</published><updated>2013-10-01T12:14:15-04:00</updated><id>http://localhost:4000/2013/10/01/kiwifruit</id><content type="html" xml:base="http://localhost:4000/2013/10/01/kiwifruit.html"><![CDATA[<p>Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the
+edible berry of several species of woody vines in the genus Actinidia.</p>
+
+<p>The most common cultivar group of kiwifruit is oval, about the size of
+a large hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm
+(1.8–2.2 in) in diameter). It has a fibrous, dull greenish-brown skin
+and bright green or golden flesh with rows of tiny, black, edible
+seeds. The fruit has a soft texture, with a sweet and unique flavor.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.]]></summary></entry><entry><title type="html">Markup: HTML Elements and Formatting</title><link href="http://localhost:4000/markup/2013/01/11/markup-html-elements-and-formatting.html" rel="alternate" type="text/html" title="Markup: HTML Elements and Formatting" /><published>2013-01-11T00:00:00-05:00</published><updated>2018-02-01T10:16:49-05:00</updated><id>http://localhost:4000/markup/2013/01/11/markup-html-elements-and-formatting</id><content type="html" xml:base="http://localhost:4000/markup/2013/01/11/markup-html-elements-and-formatting.html"><![CDATA[<p>A variety of common HTML elements to demonstrate the theme’s stylesheet and verify they have been styled appropriately.</p>
+
+<h1 id="header-one">Header one</h1>
+
+<h2 id="header-two">Header two</h2>
+
+<h3 id="header-three">Header three</h3>
+
+<h4 id="header-four">Header four</h4>
+
+<h5 id="header-five">Header five</h5>
+
+<h6 id="header-six">Header six</h6>
+
+<h2 id="blockquotes">Blockquotes</h2>
+
+<p>Single line blockquote:</p>
+
+<blockquote>
+  <p>Stay hungry. Stay foolish.</p>
+</blockquote>
+
+<p>Multi line blockquote with a cite reference:</p>
+
+<blockquote>
+  <p>People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I’m actually as proud of the things we haven’t done as the things I have done. Innovation is saying no to 1,000 things.</p>
+
+  <footer><strong>Steve Jobs</strong> &mdash; Apple Worldwide Developers' Conference, 1997</footer>
+</blockquote>
+
+<p>Quoted text inline using <code class="language-plaintext highlighter-rouge">&lt;q&gt;</code> element:</p>
+
+<p>Luke continued, <q>And then she called him a <q>scruffy-looking nerf-herder</q>! I think I’ve got a chance!</q> The poor naive fool&hellip;</p>
+
+<h2 id="tables">Tables</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Employee</th>
+      <th>Salary</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="#">John Doe</a></td>
+      <td>$1</td>
+      <td>Because that’s all Steve Jobs needed for a salary.</td>
+    </tr>
+    <tr>
+      <td><a href="#">Jane Doe</a></td>
+      <td>$100K</td>
+      <td>For all the blogging she does.</td>
+    </tr>
+    <tr>
+      <td><a href="#">Fred Bloggs</a></td>
+      <td>$100M</td>
+      <td>Pictures are worth a thousand words, right? So Jane × 1,000.</td>
+    </tr>
+    <tr>
+      <td><a href="#">Jane Bloggs</a></td>
+      <td>$100B</td>
+      <td>With hair like that?! Enough said.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Header1</th>
+      <th style="text-align: center">Header2</th>
+      <th style="text-align: right">Header3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">cell1</td>
+      <td style="text-align: center">cell2</td>
+      <td style="text-align: right">cell3</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">cell4</td>
+      <td style="text-align: center">cell5</td>
+      <td style="text-align: right">cell6</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">cell1</td>
+      <td style="text-align: center">cell2</td>
+      <td style="text-align: right">cell3</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">cell4</td>
+      <td style="text-align: center">cell5</td>
+      <td style="text-align: right">cell6</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td style="text-align: left">Foot1</td>
+      <td style="text-align: center">Foot2</td>
+      <td style="text-align: right">Foot3</td>
+    </tr>
+  </tfoot>
+</table>
+
+<h2 id="definition-lists">Definition Lists</h2>
+
+<dl>
+  <dt>Definition List Title</dt>
+  <dd>Definition list division.</dd>
+  <dt>Startup</dt>
+  <dd>A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.</dd>
+  <dt>#dowork</dt>
+  <dd>Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as a self motivator, to motivating your friends.</dd>
+  <dt>Do It Live</dt>
+  <dd>I’ll let Bill O’Reilly <a href="https://www.youtube.com/watch?v=O_HyZ5aW76c" title="We'll Do It Live">explain</a> this one.</dd>
+</dl>
+
+<h2 id="unordered-lists-nested">Unordered Lists (Nested)</h2>
 
 <ul>
-  <li>CNI</li>
-  <li>SDN</li>
-  <li>Kuryr</li>
-  <li>CRUD actions/events</li>
-  <li>OCS (possibly released with openshift 4.3)</li>
+  <li>List item one
+    <ul>
+      <li>List item one
+        <ul>
+          <li>List item one</li>
+          <li>List item two</li>
+          <li>List item three</li>
+          <li>List item four</li>
+        </ul>
+      </li>
+      <li>List item two</li>
+      <li>List item three</li>
+      <li>List item four</li>
+    </ul>
+  </li>
+  <li>List item two</li>
+  <li>List item three</li>
+  <li>List item four</li>
 </ul>
 
-<h2 id="dealing-with-octavia-">dealing with Octavia :/</h2>
-
-<h2 id="sources">sources</h2>
-
-<p><a href="https://blog.openshift.com/accelerate-your-openshift-network-performance-on-openstack-with-kuryr/">Accelerate your OpenShift Network Performance on OpenStack with Kuryr</a></p>]]></content><author><name></name></author><category term="ShiftStack," /><category term="OpenShift," /><category term="OpenStack" /><summary type="html"><![CDATA[okd 3.11 on OpenStack Queens okd 3.11 is the first openshift release to coordinate with openstack release]]></summary></entry><entry><title type="html">Open Infrastructure Summit Denver</title><link href="http://localhost:4000/openstack/2019/01/31/denver-cfp.html" rel="alternate" type="text/html" title="Open Infrastructure Summit Denver" /><published>2019-01-31T14:01:50-05:00</published><updated>2019-01-31T14:01:50-05:00</updated><id>http://localhost:4000/openstack/2019/01/31/denver-cfp</id><content type="html" xml:base="http://localhost:4000/openstack/2019/01/31/denver-cfp.html"><![CDATA[<p>Now that the Call for Presentations for Open Infrastructure Summit Denver has officially closed, it’s time to vote for topics you want to see! Over 300 presentations, workshops, &amp; collaborative sessions will be scheduled on topics:</p>
-
-<ul>
-  <li>AI</li>
-  <li>CI/CD</li>
-  <li>Containers &lt;3</li>
-  <li>Edge Computing</li>
-  <li>Hybrid Cloud</li>
-  <li>HPC</li>
-  <li>NFV</li>
-  <li>Public/Private Cloud</li>
-  <li>Security</li>
-</ul>
-
-<p>Because we are a 100% open source, collaborative community, you now have the power to make your voices heard &amp; help create the session schedule for the <strong>first</strong> Open Infra summit - so long as you have an OpenStack Foundation community membership. If you do not have an account, you can create one by signing up at <a href="https://openstack.org/join">openstack.org/join</a>.</p>
-
-<p>voting closes Monday, February 4 at 11:59pm Pacific Time (Tuesday, February 5 at 7:59 UTC), so get your votes in!</p>
-
-<p>… and if you should feel so led, please vote for my sessions linked below. I hope to see you all in Denver for the first Open Infra summit!</p>
-
-<h2 id="vote-for-trilliams-round-ii">Vote for Trilliams! Round II</h2>
+<h2 id="ordered-list-nested">Ordered List (Nested)</h2>
 
 <ol>
-  <li><a href="https://www.openstack.org/summit/denver-2019/vote-for-speakers#/23034">It’s a PaaS! - OpenShift vs. Vanilla k8s on OpenStack</a></li>
-  <li><a href="https://www.openstack.org/summit/denver-2019/vote-for-speakers#/23035">Clear to Partly Awesome - OpenShift 4.x &amp; How it fits with OpenStack</a></li>
-  <li><a href="https://www.openstack.org/summit/denver-2019/vote-for-speakers#/23036">StackShifting 101 - Installing OpenShift on OpenStack</a></li>
-</ol>]]></content><author><name></name></author><category term="openstack" /><summary type="html"><![CDATA[Now that the Call for Presentations for Open Infrastructure Summit Denver has officially closed, it’s time to vote for topics you want to see! Over 300 presentations, workshops, &amp; collaborative sessions will be scheduled on topics:]]></summary></entry><entry><title type="html">New Course - OpenShift on OpenStack</title><link href="http://localhost:4000/linuxacademy/2018/11/26/OoO123-release.html" rel="alternate" type="text/html" title="New Course - OpenShift on OpenStack" /><published>2018-11-26T10:30:00-05:00</published><updated>2018-11-26T10:30:00-05:00</updated><id>http://localhost:4000/linuxacademy/2018/11/26/OoO123-release</id><content type="html" xml:base="http://localhost:4000/linuxacademy/2018/11/26/OoO123-release.html"><![CDATA[<p>For those who caught the <strong>OpenShift on OpenStack</strong> bug at <a href="https://www.openstack.org/summit/berlin-2018/">OpenStack Summit Berlin</a> &amp; want to know more, check out my latest Linux Academy course - aptly named <a href="https://linuxacademy.com/openstack/training/course/name/open-shift-on-open-stack">OpenShift on OpenStack</a>!</p>
+  <li>List item one
+    <ol>
+      <li>List item one
+        <ol>
+          <li>List item one</li>
+          <li>List item two</li>
+          <li>List item three</li>
+          <li>List item four</li>
+        </ol>
+      </li>
+      <li>List item two</li>
+      <li>List item three</li>
+      <li>List item four</li>
+    </ol>
+  </li>
+  <li>List item two</li>
+  <li>List item three</li>
+  <li>List item four</li>
+</ol>
 
-<p><img src="/images/Openshift-on-OpenStack-1920x1080.png" alt="graphic" /></p>
+<h2 id="buttons">Buttons</h2>
 
-<p>You’ll get a full walkthrough on how to quickly deploy your own OpenStack Queens cloud using <strong>OpenStack PackStack</strong>, then launch an OpenShift cluster with Keystone, Cinder, &amp; Neutron integrations using <a href="https://keithtenzer.com">Keith Tenzer’s</a> OpenShift-on-OpenStack123 playbooks. Once your OoO123 cluster is running, we’ll practice OpenShift migrations, disaster recovery, &amp; more.</p>
+<p>Make any link standout more when applying the <code class="language-plaintext highlighter-rouge">.btn</code> class.</p>
 
-<p>If you don’t have a Linux Academy subscription yet, now is a GREAT time to sign up to take advantage of 33% off <a href="https://linuxacademy.com/join/pricing?utm_source=website&amp;utm_medium=sitebanner&amp;utm_campaign=blackfridaycybermonday_2018">#CyberMonday</a> deals, so what are you waiting for??</p>]]></content><author><name></name></author><category term="linuxacademy" /><summary type="html"><![CDATA[For those who caught the OpenShift on OpenStack bug at OpenStack Summit Berlin &amp; want to know more, check out my latest Linux Academy course - aptly named OpenShift on OpenStack!]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2018/11/20/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-11-20T00:24:07-05:00</published><updated>2018-11-20T00:24:07-05:00</updated><id>http://localhost:4000/jekyll/update/2018/11/20/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/11/20/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">OpenStack Summit Berlin!</title><link href="http://localhost:4000/openstack/2018/11/15/openstack-summit-berlin.html" rel="alternate" type="text/html" title="OpenStack Summit Berlin!" /><published>2018-11-15T17:19:50-05:00</published><updated>2018-11-15T17:19:50-05:00</updated><id>http://localhost:4000/openstack/2018/11/15/openstack-summit-berlin</id><content type="html" xml:base="http://localhost:4000/openstack/2018/11/15/openstack-summit-berlin.html"><![CDATA[<h3 id="openstack-summit-berlin-2018-recap">OpenStack Summit Berlin 2018 Recap</h3>
-
-<p>Today marks the end of yet another awesome <a href="https://www.openstack.org/summit/berlin-2018/">OpenStack Summit</a>, this
-time held in the gorgeous city of Berlin, Germany. Those of us fortunate
-enough to attend were treated to the latest &amp; greatest updates of what’s
-happening with OpenStack - with one particularly exciting announcement being
-that the next summit is getting a name change! OpenStack Summit is now being
-rebranded as the <strong>Open Infrastructure Summit</strong>, colocated with <a href="https://www.openstack.org/ptg/">OpenStack
-PTG</a> in Denver, CO from April 29th to May 4th, 2019. This summit also
-marked a milestone for me, as I was given opportunity by our awesome OpenStack
-community to <strong>successfully</strong> deliver a clean demo on installing <a href="https://linuxacademy.com/openstack/training/course/name/open-shift-on-open-stack">OpenShift on
-OpenStack</a>.</p>
-
-<h3 id="demo-video">Demo Video</h3>
-
-<p>For those who missed it, you can view the video on <a href="https://youtu.be/Hshndx23oEc">YouTube</a>. Once I’ve
-returned to the U.S. &amp; recovered from this heinous jetlag, a new blog will be
-uploaded with more details on the demo environment, &amp; how it can be replicated
-to create your own OpenShift-on-OpenStack playground.</p>]]></content><author><name></name></author><category term="openstack" /><summary type="html"><![CDATA[OpenStack Summit Berlin 2018 Recap]]></summary></entry><entry><title type="html">Return to Trilligan’s Island</title><link href="http://localhost:4000/trilligansisland/socialanxiety/2018/09/14/trilligans-island.html" rel="alternate" type="text/html" title="Return to Trilligan’s Island" /><published>2018-09-14T18:44:50-04:00</published><updated>2018-09-14T18:44:50-04:00</updated><id>http://localhost:4000/trilligansisland/socialanxiety/2018/09/14/trilligans-island</id><content type="html" xml:base="http://localhost:4000/trilligansisland/socialanxiety/2018/09/14/trilligans-island.html"><![CDATA[<p>If you follow me on the <a href="https://twitter.com/OGtrilliams">Twitters</a> (which I certainly hope you do)
-you may have recently seen a tweet/subtle cry for help where I mentioned being afraid
-to leave the house for an event. As mentioned on Twitter, I was ultimately
-glad that I went, but getting out the door following <a href="https://events.linuxfoundation.org/events/open-source-summit-north-america-2018/">Open Source Summit North
-America</a> was much harder than usual.</p>
-
-<p>I’ve made peace with the fact that I’m a true introvert who needs long
-“recharge periods” in-between social events, but I was a bit caught off-guard
-by my body’s reaction to the idea of being in a room, <em>with people</em> , far away
-from the safety of my domicile. It was kind of funny in hindsight – but it
-got me thinking about others who face the same struggles when it comes to
-social anxiety. Not everyone succeeds at pushing aside that nagging voice in the
-back of your head that’s telling you that you’re going to die &amp; your pupper
-will starve to death if you leave. Heck, most of the time Nagging Voice wins
-if for no other reason than watching another rerun episode of The Simpsons is
-more appealing than constantly pondering if people are secretly laughing at
-the way I sometimes stutter or my lazy eye (sn: I don’t have a lazy eye). Fortunately for me, I have a wonderful little Pupper companion who quickly &amp; expertly mutes Nagging Voice in situations where he’s allowed. Unfortunately in this specific situation, I couldn’t bring him. Sadly, emotional support animals are not covered under the ADA, even when prescribed by a doctor.</p>
-
-<p>I suppose there’s no real point to this, except to say “I hear you, friend.”
-to all of the other Hardcore Introverts out there. Living with anxiety is…
-interesting, to say the least.</p>]]></content><author><name></name></author><category term="trilligansisland" /><category term="socialanxiety" /><summary type="html"><![CDATA[If you follow me on the Twitters (which I certainly hope you do) you may have recently seen a tweet/subtle cry for help where I mentioned being afraid to leave the house for an event. As mentioned on Twitter, I was ultimately glad that I went, but getting out the door following Open Source Summit North America was much harder than usual.]]></summary></entry><entry><title type="html">Pwning Neutron Networks</title><link href="http://localhost:4000/openstack/packstack/2018/07/23/pwning-neutron-networks.html" rel="alternate" type="text/html" title="Pwning Neutron Networks" /><published>2018-07-23T14:55:50-04:00</published><updated>2018-07-23T14:55:50-04:00</updated><id>http://localhost:4000/openstack/packstack/2018/07/23/pwning-neutron-networks</id><content type="html" xml:base="http://localhost:4000/openstack/packstack/2018/07/23/pwning-neutron-networks.html"><![CDATA[<p>Those who know me, know that I am 100% an OpenStack Fangirl &amp; will never stop
-loving the project, but, like a lot of people in the community – I have a
-love/hate relationship with Neutron that can sometimes be heavy on
-the hate. It’s an awesome project created &amp; maintained by some of the most brilliant people I’ve ever had the pleasure of speaking with but OMG Y ARE U SO DIFFICULT.</p>
-
-<p><strong>ahem</strong></p>
-
-<p>Anyhoo, while preparing architecture for my next course, I spent weeks digging
-through <a href="https://docs.openstack.org/networking-ovn/queens/admin/refarch/provider-networks.html">docs</a>, <a href="https://www.rdoproject.org/networking/neutron-with-existing-external-network/">blogs</a>, video demos &amp; anything else I could find trying to figure
-out a simple, straight-forward way to configure Neutron networks with <a href="https://www.rdoproject.org/install/packstack/">PackStack</a> without the need for fiddling with
-network namespaces. Well, after trying out virtually every method I finally
-got it working how I wanted, &amp; this is how.</p>
-
-<h3 id="environment-setup">Environment Setup</h3>
-
-<p>For my environment, I’m running <a href="https://www.centos.org/download/">CentOS 7.5</a> on an <a href="https://amzn.to/2LFNUIR">Intel i5
-NUC</a> with a <a href="https://amzn.to/2LHjCWa">500GB Samsung SSD</a> &amp; <a href="https://amzn.to/2LJz8Bc">16GBx2 RAM</a>. My network name is <code class="language-plaintext highlighter-rouge">eno1</code>, &amp; my host IP is <code class="language-plaintext highlighter-rouge">192.168.1.166</code>. Because I don’t want to have to drop into a network namespace before accessing my instances I will need to configure my Neutron <code class="language-plaintext highlighter-rouge">public</code> network on this same subnet.</p>
-
-<p>So, because I’m using <a href="https://www.rdoproject.org/install/packstack/">PackStack</a> as my deployment tool, I will
-need to adjust Neutron settings in <code class="language-plaintext highlighter-rouge">answers.txt</code> with the following settings:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CONFIG_NEUTRON_ML2_TYPE_DRIVERS=vxlan,flat
-CONFIG_NEUTRON_OVS_BRIDGE_MAPPINGS=extnet:br-ex
-CONFIG_NEUTRON_OVS_BRIDGE_IFACES=br-ex:eno1
-...
-CONFIG_PROVISION_DEMO_FLOATRANGE=192.168.1.0/24
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn--success"</span><span class="nt">&gt;</span>Success Button<span class="nt">&lt;/a&gt;</span>
 </code></pre></div></div>
 
-<p>Let’s take a closer look at what’s going on:</p>
+<p><a href="#" class="btn">Default Button</a>
+<a href="#" class="btn btn--primary">Primary Button</a>
+<a href="#" class="btn btn--accent">Accent Button</a>
+<a href="#" class="btn btn--success">Success Button</a>
+<a href="#" class="btn btn--warning">Warning Button</a>
+<a href="#" class="btn btn--danger">Danger Button</a>
+<a href="#" class="btn btn--info">Info Button</a>
+<a href="#" class="btn btn--inverse">Inverse Button</a>
+<a href="#" class="btn btn--light-outline">Light Outline Button</a></p>
 
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">CONFIG_NEUTRON_ML2_TYPE_DRIVERS</code> will ensure that, if needed, I can
-configure a “flat” network without tunnels, vlans, etc.</li>
-  <li><code class="language-plaintext highlighter-rouge">CONFIG_NEUTRON_OVS_BRIDGE_MAPPINGS</code> will create a physical network named
-<code class="language-plaintext highlighter-rouge">extnet</code> that will be associated with an OVS bridge named <code class="language-plaintext highlighter-rouge">br-ex</code> – all
-created by the <code class="language-plaintext highlighter-rouge">packstack</code> installer.</li>
-  <li><code class="language-plaintext highlighter-rouge">CONFIG_NEUTRON_OVS_BRIDGE_IFACES</code> will connect the OVS bridge created in
-the previous step - <code class="language-plaintext highlighter-rouge">br-ex</code> - with the host’s public network, which in my
-case is <code class="language-plaintext highlighter-rouge">eno1</code></li>
-  <li>Now, because I left <code class="language-plaintext highlighter-rouge">CONFIG_PROVISION_DEMO</code> set to the default <code class="language-plaintext highlighter-rouge">=y</code>, I will
-have to set <code class="language-plaintext highlighter-rouge">CONFIG_PROVISION_DEMO_FLOATRANGE</code> to match my home network
-range, which is <code class="language-plaintext highlighter-rouge">192.168.1.0/24</code>. Adjust this to fit your own network range,
-or if you’re feeling fancy you can edit settings in your router to match the
-default <code class="language-plaintext highlighter-rouge">172.24.4.0/24</code> range.</li>
-</ul>
-
-<p>After making a few other customizations, such as changing the default
-passwords for <code class="language-plaintext highlighter-rouge">admin</code> &amp; <code class="language-plaintext highlighter-rouge">demo</code>, I’m ready to install!</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ packstack --answer-file=answers.txt
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="nv">Default Button Text</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn}
+<span class="p">[</span><span class="nv">Primary Button Text</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--primary}
+<span class="p">[</span><span class="nv">Accent Button Text</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--accent}
+<span class="p">[</span><span class="nv">Success Button Text</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--success}
+<span class="p">[</span><span class="nv">Warning Button Text</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--warning}
+<span class="p">[</span><span class="nv">Danger Button Text</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--danger}
+<span class="p">[</span><span class="nv">Info Button Text</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--info}
+<span class="p">[</span><span class="nv">Inverse Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--inverse}
+<span class="p">[</span><span class="nv">Light Outline Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--light-outline}
 </code></pre></div></div>
 
-<p>Once installation completes, I should be able to build a server connected to
-the automatically created <code class="language-plaintext highlighter-rouge">Private</code> network, then after attaching a <a href="https://docs.openstack.org/python-openstackclient/pike/cli/command-objects/floating-ip.html">floating
-IP</a> from the <code class="language-plaintext highlighter-rouge">Public</code> network I should be able to access the server
-without namespaces!</p>
+<p><a href="#" class="btn btn--primary btn--x-large">X-Large Button</a>
+<a href="#" class="btn btn--primary btn--large">Large Button</a>
+<a href="#" class="btn btn--primary">Default Button</a>
+<a href="#" class="btn btn--primary btn--small">Small Button</a></p>
 
-<p>Let’s see if it works:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ openstack server create myserver --image cirros --flavor m1.tiny \
---key-name mykey --nic net-id=d21c5fde-0f9a-46af-9287-b554acca3538 --wait
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="nv">X-Large Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--primary .btn--x-large}
+<span class="p">[</span><span class="nv">Large Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--primary .btn--large}
+<span class="p">[</span><span class="nv">Default Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--primary }
+<span class="p">[</span><span class="nv">Small Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--primary .btn--small}
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ openstack floating ip create public
-</code></pre></div></div>
+<h2 id="notices">Notices</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ openstack server floating ip associate myserver 192.168.1.10
-</code></pre></div></div>
+<p class="notice"><strong>Watch out!</strong> This paragraph of text has been <a href="#">emphasized</a> with the <code class="language-plaintext highlighter-rouge">{: .notice}</code> class.</p>
 
-<p>Alright, moment of truth. Let’s try to login to <code class="language-plaintext highlighter-rouge">myserver</code>.</p>
+<p class="notice--primary"><strong>Watch out!</strong> This paragraph of text has been <a href="#">emphasized</a> with the <code class="language-plaintext highlighter-rouge">{: .notice--primary}</code> class.</p>
 
-<pre><code class="language-`"># ssh cirros@192.168.1.10
-$ hostname
-myserver
-$ exit
-Connection to 192.168.1.10 closed.
-</code></pre>
+<p class="notice--accent"><strong>Watch out!</strong> This paragraph of text has been <a href="#">emphasized</a> with the <code class="language-plaintext highlighter-rouge">{: .notice--accent}</code> class.</p>
 
-<p>SUCCESS! So after an embarrassingly long time spent troubleshooting, testing,
-&amp; re-OS-ing I’ve finally solved the problem of simple Provider networks.</p>]]></content><author><name></name></author><category term="openstack" /><category term="packstack" /><summary type="html"><![CDATA[Those who know me, know that I am 100% an OpenStack Fangirl &amp; will never stop loving the project, but, like a lot of people in the community – I have a love/hate relationship with Neutron that can sometimes be heavy on the hate. It’s an awesome project created &amp; maintained by some of the most brilliant people I’ve ever had the pleasure of speaking with but OMG Y ARE U SO DIFFICULT.]]></summary></entry></feed>
+<p class="notice--info"><strong>Watch out!</strong> This paragraph of text has been <a href="#">emphasized</a> with the <code class="language-plaintext highlighter-rouge">{: .notice--info}</code> class.</p>
+
+<p class="notice--warning"><strong>Watch out!</strong> This paragraph of text has been <a href="#">emphasized</a> with the <code class="language-plaintext highlighter-rouge">{: .notice--warning}</code> class.</p>
+
+<p class="notice--success"><strong>Watch out!</strong> This paragraph of text has been <a href="#">emphasized</a> with the <code class="language-plaintext highlighter-rouge">{: .notice--success}</code> class.</p>
+
+<p class="notice--danger"><strong>Watch out!</strong> This paragraph of text has been <a href="#">emphasized</a> with the <code class="language-plaintext highlighter-rouge">{: .notice--danger}</code> class.</p>
+
+<h2 id="address-element">Address element</h2>
+
+<address>
+  1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
+</address>
+
+<h2 id="anchor-element-aka-link">Anchor element (aka. Link)</h2>
+
+<p>This is an example of a <a href="http://apple.com" title="Apple">link</a>.</p>
+
+<h2 id="abbreviation-element">Abbreviation element</h2>
+
+<p>The abbreviation <abbr title="Cascading Style Sheets">CSS</abbr> stands for “Cascading Style Sheets”.</p>
+
+<h2 id="cite-element">Cite element</h2>
+
+<p>“Code is poetry.” —<cite>Automattic</cite></p>
+
+<h2 id="code-element">Code element</h2>
+
+<p>You will learn later on in these tests that <code class="language-plaintext highlighter-rouge">word-wrap: break-word;</code> will be your best friend.</p>
+
+<h2 id="strike-element">Strike element</h2>
+
+<p>This element will let you <strike>strikeout text</strike>.</p>
+
+<h2 id="emphasize-element">Emphasize element</h2>
+
+<p>The emphasize element should <em>italicize</em> text.</p>
+
+<h2 id="insert-element">Insert element</h2>
+
+<p>This element should denote <ins>inserted</ins> text.</p>
+
+<h2 id="keyboard-element">Keyboard element</h2>
+
+<p>This scarcely known element emulates <kbd>keyboard text</kbd>, which is usually styled like the <code class="language-plaintext highlighter-rouge">&lt;code&gt;</code> element.</p>
+
+<h2 id="preformatted-element">Preformatted element</h2>
+
+<p>This element styles large blocks of code.</p>
+
+<pre>
+.post-title {
+	margin: 0 0 5px;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 1.2;
+	and here's a line of some really, really, really, really long text, just to see how the PRE element handles it and to find out how it overflows;
+}
+</pre>
+
+<h2 id="quote-element">Quote element</h2>
+
+<p><q>Developers, developers, developers…</q> –Steve Ballmer</p>
+
+<h2 id="strong-element">Strong element</h2>
+
+<p>This element shows <strong>bold text</strong>.</p>
+
+<h2 id="subscript-element">Subscript element</h2>
+
+<p>Getting our science styling on with H<sub>2</sub>O, which should push the “2” down.</p>
+
+<h2 id="superscript-element">Superscript element</h2>
+
+<p>Still sticking with science and Isaac Newton’s E = MC<sup>2</sup>, which should lift the 2 up.</p>
+
+<h2 id="variable-element">Variable element</h2>
+
+<p>This allows you to denote <var>variables</var>.</p>]]></content><author><name></name></author><category term="Markup" /><summary type="html"><![CDATA[A variety of common HTML elements to demonstrate the theme’s stylesheet and verify they have been styled appropriately.]]></summary></entry></feed>

@@ -1,6 +1,6 @@
 ---
 title: "Markup: HTML Elements and Formatting"
-layout: page
+layout: post
 paginate: true
 sub_title: "The common elements"
 categories:
