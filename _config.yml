@@ -2,14 +2,16 @@ title: "trilliams.sh"
 email: "hello@trilliams.sh"
 baseurl: ""
 url:  "https://trilliams.sh"
-logo: /assets/images/ht-logo.jpg
-favicon: assets/images/favicon.ico
+remote_theme: OGtrilliams/hilltok
+logo: "/assets/images/ht-logo.jpg"
+favicon: "assets/images/favicon.ico"
 github_username: "OGtrilliams"
 tiktok_url: "https://tiktok.com/@ogtrilliams"
 description: "information website for online course - Guerilla Networking"
 plugins:
   - jekyll-feed
   - jekyll-youtube
+  - jekyll-remote-theme
 
 exclude:
   - .DS_Store

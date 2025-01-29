@@ -38,7 +38,7 @@ h2, h3{
 }
 a{
     color: #890012;
-    text-decoration: none;
+    text-decoration: underline;
 }
 a:hover{
     background-color: #C18501;
