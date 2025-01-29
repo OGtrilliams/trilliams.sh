@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Syllabus list"
+title: "Course List"
 permalink: intro.html
 ---
 ## HillTok U Class Schedule
