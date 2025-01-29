@@ -1,183 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="/assets/scss/style.css">
-
-  <link rel="shortcut icon" type="image/x-icon" href="/" />
-
-</head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Welcome Back to Jekyll </title>
-    <style>
-  *,
-  *:before,
-  *:after {
-    margin: 0;
-    padding: 0;
-  }  
-  body {
-    background: #121212; /* Dark solid background for the overall page */
-    font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
-    color: #121212;
-    line-height: 1.54rem;
-    height: 100vh;
-    box-sizing: border-box;
-  }
-  select {
-    width: 125px;
-  }
-  .container {
-    display: grid;
-    grid-template-rows: 50px 50px 500px 40px;
-    grid-template-columns: 1fr 3fr;
-    width: 85%;
-    margin: 0 auto;
-  }
-  .gedit {
-    border-radius: 5px;
-  }
-  .gedit button {
-    width: 40px;
-  }
-  .gedit-toolbar, .gedit-browser, .gedit-subnav, .gedit-bottom {
-    background: lightgrey;
-  }
-  .gedit-content {
-    background: whitesmoke;
-  }
-  .gedit-browser-subnav {
-    background: lightgray;
-  }
-  .gedit-sidebar {
-    background: whitesmoke;
-    grid-area: 3 /1 / 5 /1;
-    overflow-y: auto;
-  }
-
-  .gedit-subnav {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 10px;
-    border: 1px solid rgb(172, 172, 172);
-
-  }
-  .gedit-header {
-    grid-column: 1;
-    grid-row: 1;
-    border-left: 0;
-    font-size: 18px;
-    font-weight: bold;
-    box-shadow: 2px 2px 3px 0px grey;
-
-  }
-  .gedit-title {
-    grid-column: 2;
-    grid-row: 1;
-    border: 1px solid grey;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  /*grid-area: row-start col-start row-end col-end;*/
-  .bt-bottom, .gedit-browser {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-  }
-  .fa-plus{
-    display: flex;
-    float: right;
-  }
-  .other-buttons{
-    grid-column: 6;
-  }
-  .mb-right{
-    grid-column: 5;
-  }
-  .gedit-decotext{
-    font-weight: bold;
-    font-size: 22px;
-  }
-  .gedit-content {
-    padding: 10px;
-    overflow-y: auto;
-  }
-    </style>
+    <title>Welcome Back to Jekyll</title>
 </head>
+<link rel="stylesheet" href="/assets/scss/style.css">
 <body>
 
     <div class="container">
-        <div class="gedit gedit-toolbar"> <span class="gedit-decotext">File Browser</span><i class="fa-solid fa-caret-down xl"></i></div>
-        <div class="gedit gedit-browser"> <div class="gedit-decotext">gedit-factory.c</div>
-
-            <div class="other-buttons">   
-                <button name="mini"><i class="fa-solid fa-window-minimize"></i></button>
-                <button name="max"><i class="fa-regular fa-window-maximize"></i></button>
-                <button name="close"><i class="fa-solid fa-xmark"></i></button>
-            </div> 
-        </div>
-        <div class="gedit gedit-browser-subnav">
-
-                <button><a onclick="window.history.back()"><i class="fa-solid fa-chevron-left xl"></i></a></button>
-                <button><i class="fa-solid fa-chevron-right xl"></i></button>
-                <button><a href="/"><i class="fa-solid fa-chevron-up xl"></i></a></button>
-                <select name="gedit" id="gedit-fake">
-                <option value="gedit">gedit</option>
-            </select>
-        </div>
-        <div class=" gedit-subnav">
-            <div class="gedit-header">Welcome Back to Jekyll<i class="fa-solid fa-plus"></i></div>
-            <div class="gedit-title">gedit.c <i class="fa-solid fa-plus"></i></div>
-        </div>
-        <div class="gedit gedit-sidebar"> <ul>
-  
-     <li> <i class="fa-regular fa-file"></i><a href="/" >Home</a></li>
-    
-  
-     <li> <i class="fa-regular fa-file"></i><a href="/about.html" >About</a></li>
-    
-  
-     <li> <i class="fa-regular fa-file"></i><a href="/images.html" >Images</a></li>
-    
-  
-     <li> <i class="fa-regular fa-file"></i><a href="hillmantok/intro.html" >Guerrilla Networking</a></li>
-    
-  
-</ul>
-
-<ul>
-  
-    <li><i class="fa-solid fa-file-lines"></i>
-      <a href="/jekyll/update/2024/09/27/welcome-to-jekyll.html">Welcome Back to Jekyll</a>
-    </li>
-  
-    <li><i class="fa-solid fa-file-lines"></i>
-      <a href="/jekyll/update/2024/04/04/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-    </li>
-  
-    <li><i class="fa-solid fa-file-lines"></i>
-      <a href="/2022/02/22/bananas.html">Bananas - the yellow fruit</a>
-    </li>
-  
-    <li><i class="fa-solid fa-file-lines"></i>
-      <a href="/2020/07/07/apples.html">apples</a>
-    </li>
-  
-    <li><i class="fa-solid fa-file-lines"></i>
-      <a href="/2013/10/01/kiwifruit.html">kiwi - the furry fruit</a>
-    </li>
-  
-    <li><i class="fa-solid fa-file-lines"></i>
-      <a href="/markup/2013/01/11/markup-html-elements-and-formatting.html">Markup: HTML Elements and Formatting</a>
-    </li>
-  
-</ul>
- </div>
-        <div class="gedit-content"><p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+        <div class="notebook-paper" id="notebook-paper">
+            <div class="title">
+                <h1> Welcome Back to Jekyll </h1> 
+            </div>
+            <p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>Jekyll requires blog post files to be named according to the following format:</p>
 
@@ -195,18 +31,15 @@
 
 <p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
 
-</div>
-        <div class=" gedit gedit-bottom">
-            <div class="bt-bottom">
-                <div class="blog-type pad">TXT<i class="fa-solid fa-angle-down xl"></i></div>
-                <div class="width pad">Width: <i class="fa-solid fa-angle-down xl"></i></div> 
-                <div class="line pad">Ln 1, Col 1</div> 
-                <div class="down pad"><i class="fa-solid fa-angle-down"></i></div> 
-                <div class="state pad">INS</div>
+
+
+
+            </div>
         </div>
-        </div>
-        
-    </div>
-    
+
+        <div class="credits">This course was created for <a href="https://hillmantokhbcu.com/">HillmanTok University</a>. All materials can be used freely WITH CREDIT under the Gnu public license (GPL).</div>
+
 </body>
+
+
 </html>

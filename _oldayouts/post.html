@@ -1,0 +1,146 @@
+---
+layout: post
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {{ page.title }} </title>
+    <style>
+  *,
+  *:before,
+  *:after {
+    margin: 0;
+    padding: 0;
+  }  
+  body {
+    background: #121212; /* Dark solid background for the overall page */
+    font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
+    color: #121212;
+    line-height: 1.54rem;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  select {
+    width: 125px;
+  }
+  .container {
+    display: grid;
+    grid-template-rows: 50px 50px 500px 40px;
+    grid-template-columns: 1fr 3fr;
+    width: 85%;
+    margin: 0 auto;
+  }
+  .gedit {
+    border-radius: 5px;
+  }
+  .gedit button {
+    width: 40px;
+  }
+  .gedit-toolbar, .gedit-browser, .gedit-subnav, .gedit-bottom {
+    background: lightgrey;
+  }
+  .gedit-content {
+    background: whitesmoke;
+  }
+  .gedit-browser-subnav {
+    background: lightgray;
+  }
+  .gedit-sidebar {
+    background: whitesmoke;
+    grid-area: 3 /1 / 5 /1;
+    overflow-y: auto;
+  }
+
+  .gedit-subnav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10px;
+    border: 1px solid rgb(172, 172, 172);
+
+  }
+  .gedit-header {
+    grid-column: 1;
+    grid-row: 1;
+    border-left: 0;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 2px 2px 3px 0px grey;
+
+  }
+  .gedit-title {
+    grid-column: 2;
+    grid-row: 1;
+    border: 1px solid grey;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  /*grid-area: row-start col-start row-end col-end;*/
+  .bt-bottom, .gedit-browser {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .fa-plus{
+    display: flex;
+    float: right;
+  }
+  .other-buttons{
+    grid-column: 6;
+  }
+  .mb-right{
+    grid-column: 5;
+  }
+  .gedit-decotext{
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .gedit-content {
+    padding: 10px;
+    overflow-y: auto;
+  }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="gedit gedit-toolbar"> <span class="gedit-decotext">File Browser</span><i class="fa-solid fa-caret-down xl"></i></div>
+        <div class="gedit gedit-browser"> <div class="gedit-decotext">gedit-factory.c</div>
+
+            <div class="other-buttons">   
+                <button name="mini"><i class="fa-solid fa-window-minimize"></i></button>
+                <button name="max"><i class="fa-regular fa-window-maximize"></i></button>
+                <button name="close"><i class="fa-solid fa-xmark"></i></button>
+            </div> 
+        </div>
+        <div class="gedit gedit-browser-subnav">
+
+                <button><a onclick="window.history.back()"><i class="fa-solid fa-chevron-left xl"></i></a></button>
+                <button><i class="fa-solid fa-chevron-right xl"></i></button>
+                <button><a href="/"><i class="fa-solid fa-chevron-up xl"></i></a></button>
+                <select name="gedit" id="gedit-fake">
+                <option value="gedit">gedit</option>
+            </select>
+        </div>
+        <div class=" gedit-subnav">
+            <div class="gedit-header">{{ page.title }}<i class="fa-solid fa-plus"></i></div>
+            <div class="gedit-title">gedit.c <i class="fa-solid fa-plus"></i></div>
+        </div>
+        <div class="gedit gedit-sidebar"> {% include postlist.html %} </div>
+        <div class="gedit-content">{{ content }}</div>
+        <div class=" gedit gedit-bottom">
+            <div class="bt-bottom">
+                <div class="blog-type pad">TXT<i class="fa-solid fa-angle-down xl"></i></div>
+                <div class="width pad">Width: <i class="fa-solid fa-angle-down xl"></i></div> 
+                <div class="line pad">Ln 1, Col 1</div> 
+                <div class="down pad"><i class="fa-solid fa-angle-down"></i></div> 
+                <div class="state pad">INS</div>
+        </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
