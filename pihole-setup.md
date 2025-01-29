@@ -1,6 +1,12 @@
-Lesson Plan for Instructional Video: Configuring Pi-hole
+---
+layout: post
+permalink: hillmantok/pihole-setup.html
+title: "HillmanTok University - Guerilla Networking"
+---
 
-Objective:
+# Lesson Plan for Instructional Video: Configuring Pi-hole
+
+## Objective:
 
 By the end of this video, viewers will:
 
@@ -10,13 +16,13 @@ Be able to install and configure Pi-hole on their network.
 
 Gain a basic understanding of DNS and how Pi-hole enhances network privacy and performance.
 
-Target Audience:
+## Target Audience:
 
 Beginners to intermediate users with basic familiarity with home networking.
 
 Individuals interested in improving network privacy and blocking ads.
 
-Lesson Structure:
+## Lesson Structure:
 
 1. Introduction (2 minutes)
 
@@ -136,9 +142,19 @@ Official Pi-hole documentation.
 
 Recommended blocklist repositories.
 
-Materials Needed:
+## Materials Needed:
 
-Raspberry Pi and necessary peripherals.
+Raspberry Pi and necessary peripherals. 
+
+### WHERE TO BUY
+- adafruit.com https://www.adafruit.com/product/6008
+- pishop.us https://www.pishop.us/product/raspberry-pi-zero-2-w/?src=raspberrypi
+Amazon is available but NOT recommended, as there is a significant price markup.
+
+### Optional
+
+heatsink (to help with heat dispersion)
+
 
 A computer for setup.
 
@@ -178,7 +194,7 @@ Absolutely! Creating an instructional video for beginners is a great idea. Below
 
 #### **2. What You’ll Need (2-3 minutes)**
    - **Hardware:**
-     - Raspberry Pi (any model, but recommend Pi 4 for beginners).
+     - [Raspberry Pi][https://www.pishop.us/product-category/raspberry-pi/raspberry-pi-boards/current-pi-boards/] (any model, but recommend Pi 4 for beginners).
      - MicroSD card (8GB or larger).
      - Power supply for the Raspberry Pi.
      - Ethernet cable (for a wired connection).
