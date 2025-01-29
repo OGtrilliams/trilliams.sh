@@ -17,3 +17,5 @@ exclude:
 
 include: 
   - .htaccess
+# copyright
+copyright: "Copyright 2024 - ∞ ♡*trilliams*♡"
