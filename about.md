@@ -1,8 +1,7 @@
 ---
-layout: default
 title: "% ~ /usr/bin/man trilliams"
 categories: about-me
-permalink: /about/
+permalink: /about.html
 ---
 					TRILLIAMS(1)               User Commands               TRILLIAMS(1)
 
@@ -51,10 +50,12 @@ permalink: /about/
 <center> Treva Nichole Williams <hello[at]trilliams.sh> </center>
 
 **<center>REPORTING BUGS</center>**<br>
-<center>Report bugs to: <bugs[at]trilliams.sh> </center>
+<center>
+
+(Report bugs)[https://github.com/OGtrilliams/trilliams.sh/issues] </center>
 
 **<center>COPYRIGHT</center>**<br>
-<center>Copyright <sup>©</sup> 2024 Treva Nichole Williams. This is free software: you are free to modify and redistribute it.<br>
+{{ site.copyright }} This is free software: you are free to modify and redistribute it.<br>
     There is NO WARRANTY, to the extent permitted by law.</center>
 
 [profile]: https://www.openstack.org/community/members/profile/59069/treva-williams

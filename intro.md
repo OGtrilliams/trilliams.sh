@@ -1,6 +1,14 @@
 ---
-title: "Class list"
-permalink: intro.html
 layout: default
+title: "Course List"
+permalink: intro.html
 ---
-lorem ipsum coming soon
+## HillTok U Class Schedule
+
+[HillmanTok University official website](https://hillmantokhbcu.com/
+
+[Intro to systems administration](#)
+
+[Blocking Ads Before They Reach You ](#)
+
+[Configure your own DNS server](#)

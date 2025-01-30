@@ -33,7 +33,9 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # Hacker theme plugin for remote viewing of theme
 #gem "github-pages","~> 4.3", group: :jekyll_plugins
 gem "jekyll-remote-theme"
-gem "jekyll-theme-so-simple"
 group :jekyll_plugins do
   gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-seo-tag"
+  gem "jekyll-youtube"
 end

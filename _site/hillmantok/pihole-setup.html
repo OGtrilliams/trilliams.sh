@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HillmanTok University - Guerilla Networking</title>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2J7YZFLJRV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2J7YZFLJRV');
+</script>
+<link rel="stylesheet" href="/assets/scss/style.css">
+<body>
+
+    <div class="container">
+        <div class="notebook-paper" id="notebook-paper">
+            <div class="title">
+                <h1> HillmanTok University - Guerilla Networking </h1> 
+            </div>
+            <h1 id="lesson-plan-for-instructional-video-configuring-pi-hole">Lesson Plan for Instructional Video: Configuring Pi-hole</h1>
+
+<h2 id="objective">Objective:</h2>
+
+<p>By the end of this video, viewers will:</p>
+
+<p>Understand what Pi-hole is and its benefits.</p>
+
+<p>Be able to install and configure Pi-hole on their network.</p>
+
+<p>Gain a basic understanding of DNS and how Pi-hole enhances network privacy and performance.</p>
+
+<h2 id="target-audience">Target Audience:</h2>
+
+<p>Beginners to intermediate users with basic familiarity with home networking.</p>
+
+<p>Individuals interested in improving network privacy and blocking ads.</p>
+
+<h2 id="lesson-structure">Lesson Structure:</h2>
+
+<ol>
+  <li>Introduction (2 minutes)</li>
+</ol>
+
+<p>What is Pi-hole?</p>
+
+<p>Brief description: Pi-hole is a network-wide ad blocker.</p>
+
+<p>Benefits: Blocks ads at the network level, enhances privacy, speeds up browsing, reduces bandwidth usage.</p>
+
+<p>Prerequisites:</p>
+
+<p>A Raspberry Pi (or compatible device) with a power supply and storage (microSD card).</p>
+
+<p>Basic familiarity with connecting to a router.</p>
+
+<ol>
+  <li>Setting Up Pi-hole (10 minutes)</li>
+</ol>
+
+<p>a. Hardware Preparation (2 minutes):</p>
+
+<p>Overview of hardware requirements:</p>
+
+<p>Raspberry Pi model (e.g., Raspberry Pi 4 or 3).</p>
+
+<p>Network connection: Ethernet or Wi-Fi.</p>
+
+<p>Demonstrate:</p>
+
+<p>Formatting the microSD card using tools like Balena Etcher.</p>
+
+<p>Flashing Raspberry Pi OS onto the card.</p>
+
+<p>b. Software Installation (4 minutes):</p>
+
+<p>Boot up the Raspberry Pi and access the terminal.</p>
+
+<p>Explain the commands step-by-step:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>curl -sSL https://install.pi-hole.net</td>
+      <td>bash</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>What the command does (downloading and executing the installation script).</p>
+
+<p>Follow the prompts:</p>
+
+<p>Select the network interface (Ethernet or Wi-Fi).</p>
+
+<p>Choose the upstream DNS provider (e.g., Google, OpenDNS).</p>
+
+<p>Configure the web interface.</p>
+
+<p>c. Post-Installation Configuration (4 minutes):</p>
+
+<p>Access the Pi-hole admin dashboard:</p>
+
+<p>Open a browser and go to http://<Pi-hole-IP-address>/admin.</Pi-hole-IP-address></p>
+
+<p>Login with the admin password provided during installation.</p>
+
+<p>Demonstrate:</p>
+
+<p>Adding custom blocklists.</p>
+
+<p>Whitelisting/blacklisting domains.</p>
+
+<p>Monitoring blocked queries.</p>
+
+<ol>
+  <li>Integrating Pi-hole with Your Network (6 minutes)</li>
+</ol>
+
+<p>a. Configuring the Router (3 minutes):</p>
+
+<p>Explain how to find the router’s admin interface (e.g., 192.168.1.1).</p>
+
+<p>Show:</p>
+
+<p>How to set the router’s DNS server to Pi-hole’s IP address.</p>
+
+<p>(Optional) Setting a static IP for Pi-hole on the router.</p>
+
+<p>b. Device-Specific DNS Settings (3 minutes):</p>
+
+<p>Show how to configure individual devices (e.g., smartphone, computer) to use Pi-hole as their DNS server if router-level configuration isn’t possible.</p>
+
+<ol>
+  <li>Advanced Features &amp; Troubleshooting (5 minutes)</li>
+</ol>
+
+<p>a. Features (3 minutes):</p>
+
+<p>Setting up conditional forwarding for local network names.</p>
+
+<p>Using Pi-hole with a VPN for remote ad-blocking.</p>
+
+<p>b. Common Issues &amp; Fixes (2 minutes):</p>
+
+<p>Devices not connecting to the internet: Check DNS settings.</p>
+
+<p>Pi-hole not blocking ads: Verify blocklist settings and DNS propagation.</p>
+
+<p>Tools to test DNS:</p>
+
+<p>nslookup or ping commands.</p>
+
+<ol>
+  <li>Wrap-Up (2 minutes)</li>
+</ol>
+
+<p>Recap:</p>
+
+<p>What Pi-hole does.</p>
+
+<p>Key steps in installation and configuration.</p>
+
+<p>Encourage viewers:</p>
+
+<p>Experiment with additional blocklists and settings.</p>
+
+<p>Join the Pi-hole community for support.</p>
+
+<p>Share links to resources:</p>
+
+<p>Official Pi-hole documentation.</p>
+
+<p>Recommended blocklist repositories.</p>
+
+<h2 id="materials-needed">Materials Needed:</h2>
+
+<p>Raspberry Pi and necessary peripherals.</p>
+
+<h3 id="where-to-buy">WHERE TO BUY</h3>
+<ul>
+  <li>adafruit.com https://www.adafruit.com/product/6008</li>
+  <li>pishop.us https://www.pishop.us/product/raspberry-pi-zero-2-w/?src=raspberrypi
+Amazon is available but NOT recommended, as there is a significant price markup.</li>
+</ul>
+
+<h3 id="optional">Optional</h3>
+
+<p>heatsink (to help with heat dispersion)</p>
+
+<p>A computer for setup.</p>
+
+<p>Access to a home router.</p>
+
+<p>Tools like Balena Etcher, SSH client, and Pi-hole documentation links.</p>
+
+<p>Pro Tips for Video Presentation:</p>
+
+<p>Use clear visuals: screen recordings for terminal and dashboard walkthroughs.</p>
+
+<p>Keep explanations concise and use diagrams for concepts like DNS.</p>
+
+<p>Include a “troubleshooting” FAQ at the end to address common questions.</p>
+
+<p>Use captions or callouts to highlight critical steps and commands.</p>
+
+<p>This structured plan should help create a comprehensive, engaging instructional video for new Pi-hole users!</p>
+
+<h2 id="deepseek">DeepSeek</h2>
+<p>Absolutely! Creating an instructional video for beginners is a great idea. Below is a detailed lesson plan for your video on configuring Pi-hole. The goal is to make it accessible, engaging, and easy to follow for people who are new to networking and tech.</p>
+
+<hr />
+
+<h3 id="lesson-plan-configuring-pi-hole-for-beginners"><strong>Lesson Plan: Configuring Pi-hole for Beginners</strong></h3>
+
+<h4 id="1-introduction-2-3-minutes"><strong>1. Introduction (2-3 minutes)</strong></h4>
+<ul>
+  <li><strong>What is Pi-hole?</strong>
+    <ul>
+      <li>Explain Pi-hole in simple terms: “A network-wide ad blocker that works at the DNS level.”</li>
+      <li>Mention its benefits: blocks ads, improves privacy, and speeds up browsing.</li>
+    </ul>
+  </li>
+  <li><strong>Who is this for?</strong>
+    <ul>
+      <li>Clarify that Pi-hole is for anyone who wants to improve their home network, even if they’re not tech-savvy.</li>
+    </ul>
+  </li>
+  <li><strong>What will viewers learn?</strong>
+    <ul>
+      <li>Briefly outline the steps: setting up Pi-hole on a Raspberry Pi (or other device), configuring it, and connecting it to your network.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h4 id="2-what-youll-need-2-3-minutes"><strong>2. What You’ll Need (2-3 minutes)</strong></h4>
+<ul>
+  <li><strong>Hardware:</strong>
+    <ul>
+      <li>[Raspberry Pi][https://www.pishop.us/product-category/raspberry-pi/raspberry-pi-boards/current-pi-boards/] (any model, but recommend Pi 4 for beginners).</li>
+      <li>MicroSD card (8GB or larger).</li>
+      <li>Power supply for the Raspberry Pi.</li>
+      <li>Ethernet cable (for a wired connection).</li>
+    </ul>
+  </li>
+  <li><strong>Software:</strong>
+    <ul>
+      <li>Raspberry Pi Imager (to install the OS).</li>
+      <li>Pi-hole software (we’ll install this during the tutorial).</li>
+    </ul>
+  </li>
+  <li><strong>Optional:</strong>
+    <ul>
+      <li>A case for the Raspberry Pi.</li>
+      <li>A monitor, keyboard, and mouse for initial setup (or use headless setup via SSH).</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h4 id="3-setting-up-the-raspberry-pi-5-7-minutes"><strong>3. Setting Up the Raspberry Pi (5-7 minutes)</strong></h4>
+<ul>
+  <li><strong>Step 1: Install the Operating System</strong>
+    <ul>
+      <li>Show how to use Raspberry Pi Imager to install Raspberry Pi OS Lite (headless version).</li>
+      <li>Explain how to enable SSH for remote access.</li>
+    </ul>
+  </li>
+  <li><strong>Step 2: Boot Up the Raspberry Pi</strong>
+    <ul>
+      <li>Connect the Raspberry Pi to power, Ethernet, and (if needed) a monitor.</li>
+      <li>Log in via SSH or directly using a monitor.</li>
+    </ul>
+  </li>
+  <li><strong>Step 3: Update the System</strong>
+    <ul>
+      <li>Run <code class="language-plaintext highlighter-rouge">sudo apt update &amp;&amp; sudo apt upgrade</code> to ensure the system is up to date.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h4 id="4-installing-pi-hole-5-7-minutes"><strong>4. Installing Pi-hole (5-7 minutes)</strong></h4>
+<ul>
+  <li><strong>Step 1: Download and Install Pi-hole</strong>
+    <ul>
+      <li>Run the Pi-hole installation command:<br />
+<code class="language-plaintext highlighter-rouge">curl -sSL https://install.pi-hole.net | bash</code></li>
+      <li>Walk through the installation prompts:
+        <ul>
+          <li>Choose an upstream DNS provider (e.g., Google DNS, Cloudflare).</li>
+          <li>Enable the web admin interface.</li>
+          <li>Set a password for the admin interface.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Step 2: Note the IP Address</strong>
+    <ul>
+      <li>Show how to find the Raspberry Pi’s IP address using <code class="language-plaintext highlighter-rouge">hostname -I</code>.</li>
+      <li>Explain that this IP will be used to access the Pi-hole admin interface.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h4 id="5-configuring-your-network-to-use-pi-hole-5-7-minutes"><strong>5. Configuring Your Network to Use Pi-hole (5-7 minutes)</strong></h4>
+<ul>
+  <li><strong>Option 1: Configure Your Router</strong>
+    <ul>
+      <li>Explain how to set the Raspberry Pi’s IP as the primary DNS server in your router settings.</li>
+      <li>Show an example of accessing a router’s admin page (e.g., 192.168.1.1).</li>
+    </ul>
+  </li>
+  <li><strong>Option 2: Configure Individual Devices</strong>
+    <ul>
+      <li>Show how to manually set the DNS server on a computer or smartphone to the Raspberry Pi’s IP.</li>
+    </ul>
+  </li>
+  <li><strong>Test the Setup</strong>
+    <ul>
+      <li>Visit a website with ads to confirm Pi-hole is blocking them.</li>
+      <li>Check the Pi-hole admin dashboard to see blocked queries.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h4 id="6-exploring-the-pi-hole-admin-interface-5-minutes"><strong>6. Exploring the Pi-hole Admin Interface (5 minutes)</strong></h4>
+<ul>
+  <li><strong>Overview of the Dashboard</strong>
+    <ul>
+      <li>Show the main features: blocked queries, allowed queries, and query log.</li>
+    </ul>
+  </li>
+  <li><strong>Adding Whitelists and Blacklists</strong>
+    <ul>
+      <li>Explain how to whitelist a domain (e.g., if a site breaks due to ad blocking).</li>
+      <li>Show how to add custom blocklists.</li>
+    </ul>
+  </li>
+  <li><strong>Changing Settings</strong>
+    <ul>
+      <li>Briefly cover settings like DHCP, DNS, and privacy options.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h4 id="7-troubleshooting-tips-3-5-minutes"><strong>7. Troubleshooting Tips (3-5 minutes)</strong></h4>
+<ul>
+  <li><strong>Common Issues:</strong>
+    <ul>
+      <li>Pi-hole not blocking ads: Check if the DNS settings are correct.</li>
+      <li>Slow internet: Ensure the Raspberry Pi is connected via Ethernet.</li>
+      <li>Forgot admin password: Show how to reset it via the command line.</li>
+    </ul>
+  </li>
+  <li><strong>Where to Get Help:</strong>
+    <ul>
+      <li>Pi-hole documentation, forums, and Reddit communities.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h4 id="8-conclusion-and-next-steps-2-3-minutes"><strong>8. Conclusion and Next Steps (2-3 minutes)</strong></h4>
+<ul>
+  <li><strong>Recap:</strong>
+    <ul>
+      <li>Summarize what was covered: setting up Pi-hole, configuring the network, and using the admin interface.</li>
+    </ul>
+  </li>
+  <li><strong>Encourage Experimentation:</strong>
+    <ul>
+      <li>Suggest exploring advanced features like custom blocklists or integrating with other tools.</li>
+    </ul>
+  </li>
+  <li><strong>Call to Action:</strong>
+    <ul>
+      <li>Ask viewers to like, comment, and subscribe for more tutorials.</li>
+      <li>Provide links to resources (Pi-hole documentation, recommended blocklists, etc.).</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="tips-for-the-video"><strong>Tips for the Video</strong></h3>
+<ul>
+  <li><strong>Keep it Visual:</strong>
+    <ul>
+      <li>Use screen recordings for command-line steps and on-screen annotations to highlight important details.</li>
+    </ul>
+  </li>
+  <li><strong>Speak Clearly and Slowly:</strong>
+    <ul>
+      <li>Avoid jargon and explain technical terms when necessary.</li>
+    </ul>
+  </li>
+  <li><strong>Provide Timestamps:</strong>
+    <ul>
+      <li>Add chapters to the video so viewers can easily navigate to specific sections.</li>
+    </ul>
+  </li>
+  <li><strong>Include Links in the Description:</strong>
+    <ul>
+      <li>Share links to the Pi-hole website, Raspberry Pi Imager, and any tools or resources mentioned.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<p>This lesson plan should help you create a comprehensive and beginner-friendly video. Let me know if you’d like help with scripting or additional details!</p>
+
+
+
+            </div>
+        </div>
+
+        <div class="credits">This course was created for <a href="https://hillmantokhbcu.com/">HillmanTok University</a>. All materials can be used freely WITH CREDIT under the Gnu public license (GPL).</div>
+
+</body>
+
+
+</html>
