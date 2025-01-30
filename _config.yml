@@ -39,6 +39,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-analytics
 
 
 # Enable pagination
@@ -46,12 +47,18 @@ plugins:
 #paginate_path: /page:num/
 
 # enable search
-
 search_full_content: true
 # Front Matter Defaults
 
 # copyright
 copyright: "Copyright 2025 - ∞ ♡*trilliams*♡"
+
+# Google analytics
+jekyll_analytics:
+  GoogleAnalytics:
+    id: G-2J7YZFLJRV
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
