@@ -34,6 +34,9 @@
 <loc>http://localhost:4000/intro.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/media-supplies.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/pihole/pi-intro.html</loc>
 </url>
 <url>
