@@ -26,3 +26,9 @@ permalink: /pihole/pi-intro.html
     - Install & configure PiHole
     - Troubleshooting & Updates
     - What now?
+
+## Recommended blocklists
+
+- https://github.com/hagezi/dns-blocklists
+- https://firebog.net/
+- https://github.com/blocklistproject/Lists?tab=readme-ov-file#pi-hole-instructions
