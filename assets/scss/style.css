@@ -37,6 +37,9 @@ h2, h3{
     color: #890012;
     font-family: "Homemade Apple", serif;
 }
+mark {
+    background-color: yellow;
+}
 a{
     color: #890012;
     text-decoration: underline;
