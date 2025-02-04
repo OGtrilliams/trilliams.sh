@@ -75,3 +75,15 @@ a:hover{
       width:1px;
       background:#db4034;
 }
+.class-name{
+
+    font-size: 5rem;
+    text-align: center;
+    width: 100%;
+    font-family:"Indie Flower";
+    text-wrap: nowrap;
+}
+footer{
+    float:right;
+    bottom: 0;
+}
