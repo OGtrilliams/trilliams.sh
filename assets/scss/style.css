@@ -57,7 +57,7 @@ a:hover{
     padding-top:55px;
     padding-left:160px;
     padding-right:20px;
-    overflow:hidden;
+    overflow:auto;
     border-radius:5px;
     -webkit-box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
     -moz-box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
