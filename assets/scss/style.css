@@ -48,11 +48,11 @@ a:hover{
     background-color: #C18501;
 }
 #notebook-paper {
-    width:960px;
+    max-width:960px;
     height:1109px;
     background: linear-gradient(to bottom,white 29px,#00b0d7 1px);
     margin:50px auto;
-    background-size: 100% 30px;
+    background-size: 100vh 30px;
     position:relative;
     padding-top:55px;
     padding-left:160px;
